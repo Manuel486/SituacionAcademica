@@ -60,9 +60,9 @@ function promedioNotas(nota1,nota2,nota3,nota4) {
 function obtenerSituacion(promedio){
     if(promedio>0 && promedio<10){
         return "DESAPROBADO";
-    } else if(promedio>11 && promedio<13){
+    } else if(promedio>10 && promedio<13){
         return "RECUPERA";
-    } else if(promedio>14 && promedio<20){
+    } else if(promedio>13 && promedio<20){
         return "APROBADO";
     }
 }
