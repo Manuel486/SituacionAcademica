@@ -14,8 +14,8 @@ function calcular(e){
 
     if(val1 && val2 && val3 && val4){
         let promedio = promedioNotas(nota1,nota2,nota3,nota4);
-        let notaMin = Math.max(nota1,nota2,nota3,nota4);
-        let notaMax = Math.min(nota1,nota2,nota3,nota4);
+        let notaMin = Math.min(nota1,nota2,nota3,nota4);
+        let notaMax = Math.max(nota1,nota2,nota3,nota4);
         let situacionActual = obtenerSituacion(promedio);
 
         contenido.innerHTML= `
