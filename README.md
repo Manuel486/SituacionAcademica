@@ -9,3 +9,5 @@ También se agregaron las siguientes validaciones:
   - Los campos no deben estar vacios.
   - Las notas deben estar entre 0 y 20.
   - Solo se puede ingresar números.
+
+Para el diseño de la página se utilzo Boostrap
