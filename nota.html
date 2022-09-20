@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notas</title>
+</head>
+<body class="m-0 vh-100 row justify-content-center align-items-center">
+    <form id="form" class="form-group col-auto bg-danger p-5">
+        <label for="nota1">Nota 1 : </label>
+        <input id="nota1" class="form-control" type="number" placeholder="Ingrese Nota 1" required>
+
+        <label for="nota2">Nota 2 : </label>
+        <input id="nota2" class="form-control" type="number" placeholder="Ingrese Nota 2" required>
+
+        <label for="nota3">Nota 3 : </label>
+        <input id="nota3" class="form-control" type="number" placeholder="Ingrese Nota 3" required>
+
+        <label for="nota4">Nota 4 : </label>
+        <input id="nota4" class="form-control" type="number" placeholder="Ingrese Nota 4" required>
+
+        <br>
+        <div class="text-center">
+            <button type="submit" class="btn btn-primary">Enviar</button>
+        </div>
+        <br>
+        <div id="contenido" class="bg-light"></div>
+    </form>
+    <script src="./nota.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+</body>
+</html>
